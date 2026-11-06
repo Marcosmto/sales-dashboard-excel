@@ -23,6 +23,12 @@ Este projeto transforma uma base de dados transacional em um painel visual compl
 
 ---
 
+## 📸 Preview do Dashboard
+
+![Dashboard de Vendas](screenshots/image.png)
+
+---
+
 ## 🛠️ Tecnologias e Recursos Utilizados
 
 | Recurso | Uso no Projeto |
@@ -41,9 +47,8 @@ Este projeto transforma uma base de dados transacional em um painel visual compl
 sales-dashboard-excel/
 ├── README.md
 ├── Dashboard_Vendas.xlsx          # Arquivo principal do dashboard
-├── data/
-│   └── Base_dados.xlsx             # (opcional) cópia da base
-└── screenshots/                   # Prints do dashboard (adicione aqui)
+└── screenshots/
+    └── image.png                   # Preview do dashboard
 ```
 
 ### Abas do arquivo Excel:
@@ -68,21 +73,9 @@ sales-dashboard-excel/
 
 ---
 
-## 📸 Screenshots
-
-Adicione prints de alta qualidade do dashboard na pasta `screenshots/` e referencie aqui:
-
-```markdown
-![Dashboard Principal](screenshots/dashboard_geral.png)
-![Performance por Vendedor](screenshots/por_vendedor.png)
-![Evolução Mensal](screenshots/evolucao_mensal.png)
-```
-
----
-
 ## 📥 Como usar
 
-1. Baixe o arquivo `Dashboard_Vendas.xlsx`
+1. Baixe o arquivo [`Dashboard_Vendas.xlsx`](Dashboard_Vendas.xlsx)
 2. Abra no **Excel 365**, Excel 2021 ou superior (recomendado)
 3. Navegue até a aba **Dashboard**
 4. Utilize as segmentações de dados para filtrar por ano, vendedor, produto ou região
